@@ -1,0 +1,1702 @@
+.a1024 h1{
+		font: 33px/34px 'Open Sans Light';
+		font-weight: 300;
+		color:#34465c;
+		position:relative;
+	}
+
+.a1024 h2{
+		font-size: 20px;
+		line-height:22px;
+	}
+.a1024 .light{
+		font: 33px 'Open Sans Light';
+		font-weight: 300;
+		position: relative;
+	}
+.a1024	h3{
+		font: 16px 'Open Sans';
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+.a1024	p{
+		font: 12px 'pt_sansregular';
+	}
+	
+.a1024	li{
+		font: 16px 'pt_sansregular';
+	}
+.a1024	footer p{
+		font: 12px 'pt_sansregular';
+	}
+	
+.a1024	.boton {
+		font-size:14px;
+	}
+
+.a1024	.content{
+		width: 960px;
+	}
+	
+	/*HEADER*/
+	
+.a1024	.header {
+		height: 57px;
+	}	
+
+.a1024	.sprite span {
+		background:url(../images/global/sprite_global2.png) no-repeat;
+		
+	}	
+	
+.a1024	.header .logo span {
+		width: 120px;
+		height: 35px;
+	} 
+	
+.a1024	.header ul {
+		height:auto;
+	}
+	
+.a1024	.header ul li a {
+		color: #fff;
+		font: 12px 'pt_sansregular';
+		display: block;
+		padding: 21px 7px;
+		position: relative;
+	}
+	
+.a1024	.header ul li.ayuda a {
+		padding-left: 35px;
+	}
+	
+.a1024	.header ul li.ayuda a span {
+		background-position: 1px -40px;
+		height: 20px;
+		width: 11px;
+		top: 21px;
+		left: 22px;
+	}
+	
+.a1024	.header ul li.cuenta a span {
+		background-position: -12px -36px;
+		height: 25px;
+		margin-top: -5px;
+	}
+	
+.a1024	#Home .headerContent {
+		background-size:cover;
+	}
+	
+.a1024	.header ul li.cuenta a {
+		padding-top: 20px;
+		padding-left: 54px;
+	}
+	
+.a1024 .headerContent .contentTop{
+	width: 910px;
+}
+.a1024 .header ul li a.activo, .header ul li a.activo:hover, .header ul li a:hover {
+	color:#19ace3;
+}	
+
+.a1024 .footer .footerBottom .menu{
+	width: 480px;
+}
+	/*CONTENIDO*/
+	
+	
+.a1024	.headerContent .titulos h1 {
+		font-size: 33px;
+		width: 470px;
+		line-height:34px;
+	}
+	
+.a1024 .titulos h1 span {
+	background-position: -141px -90px;
+}	
+
+.a1024 h2.sprite span, 
+.a1024 .titulos h1 span {
+	background-position: -141px -90px;
+}
+
+.a1024 #Home .sli-header .bx-pager {
+	width: 1024px;
+}
+
+.a1024 #Home .sli-header .bx-pager .bx-pager-item a {
+	background-position: -2px -340px;
+	width: 183px;
+	padding: 27px 22px;
+	font-size: 16px;
+	height: 79px;
+}
+
+.a1024 #Home .headerContent .titulos {
+}
+
+.a1024 #Home .headerContent ul li.saldazo .titulos img {
+	width: 1070px;
+}	
+
+.a1024 #Home .sli-header .bx-viewport li {
+	background-size: 180%;
+}
+
+.a1024 #Home .sli-header .bx-viewport li img {
+	width: auto;
+
+
+}
+
+.a1024 #Home .sli-header .bx-pager .bx-pager-item a:hover,
+.a1024 #Home .sli-header .bx-pager .bx-pager-item a.active {
+	background-position: -230px -340px;
+
+}
+
+.a1024 #Home .sli-header .bx-controls {
+	margin: -18px auto;
+	right: -49px;
+
+}
+	
+.a1024	.headerContent .boton {
+		font-size: 15px;
+	}
+	
+	
+.a1024	.btnNaranja {
+		background: url(../images/global/btn-naranja2.png) no-repeat;
+		background-position: 0 0;
+		padding-top: 6px;
+		padding-left: 17px;
+		padding-bottom: 5px;
+		height: 17px;
+		width: 199px;
+	}
+	
+.a1024	.btnNaranja:hover {
+		background-position:0 -27px;
+	}
+	
+.a1024	.btnNaranja span {
+		background: url(../images/global/btn-naranja2.png) no-repeat;
+		height: 28px;
+		background-position: -207px 0;
+	}
+	
+.a1024	.btnNaranja:hover span {
+		background-position: -207px -27px;
+	}
+	
+.a1024	.btnFlecha {
+		background-position: -127px 0;
+	}
+	
+.a1024	.btnFlecha:hover span {
+		background-position:-127px -12px;
+	}
+	
+.a1024	.btnFlecha span {
+		background-position: -127px 0;
+		height: 12px;
+	}
+	
+.a1024	.btnFlecha span:hover {
+		background-position:-127px -12px;
+	} 
+	
+.a1024	.homeBlocks li {
+		width: 260px;
+		min-height: 190px !important;
+		margin-right: 2px;
+	}	
+	
+.a1024	.blockTop li img {
+		width: 35%;
+		height: auto;	
+	}
+	
+.a1024	.blockTop li h3 {
+		font-size:17px;
+		padding-bottom: 5px;
+	}
+	
+.a1024	.blockTop li p {
+		font-size:11px;
+	}
+	
+.a1024	#Home .bx-controls a {
+		background: url(../images/global/sprite_global2.png) no-repeat;
+		width: 45px;
+		height: 74px;
+	}
+	
+.a1024	#Home .bx-controls .bx-prev {
+		background-position: -95px -184px;
+		margin-left: -7px;
+		height: 58px;
+	}
+	
+.a1024	#Home .bx-controls .bx-next {
+		margin-right: -6px;
+		background-position: -127px -184px;
+		height: 58px;
+}
+	
+.a1024	#Home .bx-controls .bx-prev:hover{
+		background-position: -95px -249px;
+}
+.a1024	#Home .bx-controls .bx-next:hover{
+		background-position: -127px -249px;
+	}
+	
+.a1024	.homeBlocks {
+		height: 260px;
+		width: 905px;
+	}
+	
+.a1024	.blockBottom {
+		width:915px;
+	}
+	
+.a1024	.blockBottom li .box {
+		width:295px;
+	}
+	
+.a1024	#Home .textContent .titulos {
+		margin-top: 0px;
+	}
+	
+.a1024	#Home .textContent .titulos h1 {
+		margin-bottom: 10px;
+	}
+	
+.a1024	.blockBottom li .box h2 span {
+		font-size: 15px;
+	}
+	
+.a1024	.textContent .titulos .btnNaranja {
+		background: url(../images/global/btn-naranja3.png) no-repeat;
+		width: 129px;
+	}
+	
+.a1024	.textContent .titulos .btnNaranja:hover {
+		background-position:0 -27px;
+	}
+	
+.a1024	.boxContent > ul > li {
+		width: 300px;
+	}
+	
+.a1024	.boxContent > ul > li ul li {
+		width: 300px;
+	}
+	
+.a1024	.boxContent > ul > li ul li img {
+		width: 300px;
+		height: auto;
+		
+	}
+	
+
+.a1024	.boxContent .box2x1 {
+		height: 300px;
+	}
+	
+.a1024	.boxContent .box1x1 {
+		height: 154px;
+	}
+	
+.a1024	#Home .sli-home .box .btn-cont .btnNaranja {
+		background: url(../images/global/btn-naranja3.png) no-repeat;
+		width: 130px;
+		font-size: 14px;
+		height: 17px;
+	}
+	
+.a1024	#Home .sli-home .box .btn-cont .btnNaranja:hover {
+		background-position: 0px -27px;	
+	}
+	
+.a1024	#Home .sli-home .box .btn-cont .btnNaranja:hover span {
+		background-position: -207px -27px;
+	}
+	
+.a1024	#Home .sli-home .box small {
+		font-size: 10px;
+		width: 260px;
+	}
+	
+.a1024.ie7 #Home .sli-home ul li {
+		width:305px !important;
+		padding-right:0px;
+		
+}
+
+.a1024 #cboxLoadedContent iframe {
+	  margin: 0 auto;
+	  margin-left: 48px;
+ 	 width: 87%;
+}
+
+.a1024 #Home #colorbox #cboxClose {
+	  margin-right: 86px;
+}
+
+.a1024 #queEsTransfer #mycarousel.sprite li a span {
+		background-position: -216px 0px;
+		height: 113px;
+		width: 169px;
+	}
+	
+.a1024 #queEsTransfer #mycarousel.sprite li a:hover span {
+		background-position: -216px -120px;
+} 
+	
+.a1024 #queEsTransfer .alt-controls li {
+		width: 240px !important;
+		left: 60px;
+}
+
+.a1024 .jcarousel .bx-viewport span {
+		
+}
+	
+	
+.a1024 .jcarousel li {
+	width: 169px !important;
+}
+	
+.a1024 .jcarousel li a img {
+	width:100%;
+	height:auto;
+}
+
+ .a1024 #queEsTransfer .download-app p {
+	font-size: 16px;
+}
+
+.a1024 #queEsTransfer .videos {
+	padding:0 0 40px;
+}
+
+.a1024 #queEsTransfer .block {
+	height: 210px;
+}
+
+.a1024 #queEsTransfer .block.app-preview {
+	background:url('../images/queEsTransfer/app-preview2.png') 140px 12px no-repeat;
+}
+
+/*COMO FUNCIONA*/
+
+.a1024 .tabs {
+	width: 955px;
+}
+
+.a1024 .tabs li a {
+	font-size: 14px;
+}
+
+.a1024 .blockTop li {
+	width: 260px;
+}
+
+.a1024 #comoFunciona .datosTextos .completarFormulario {
+	padding: 50px 0;
+}
+
+
+.a1024 #MaryKay .datosTextos p, 
+.a1024 .comoFunciona .datosTextos p, 
+.a1024 .comoFunciona .datosTextos2 p {
+	font-size: 20px;
+}
+
+.a1024 #MaryKay ol.blueTab, 
+.a1024 #comoFuncionaFondear ol.blueTab, 
+.a1024 #comoFunciona ol.blueTab {
+	width: 961px;
+}
+
+.a1024 #MaryKay ol.blueTab li, 
+.a1024 #comoFuncionaFondear ol.blueTab li, 
+.a1024 #comoFunciona ol.blueTab li {
+	width: 285px;
+}
+
+.a1024 #MaryKay ol.blueTab li span, 
+.a1024 #comoFuncionaFondear ol.blueTab li span, 
+.a1024 #comoFunciona ol.blueTab li span { 
+	background-position: 6px -180px;
+	height: 42px;
+}
+
+.a1024 #MaryKay.bases ol li li span {
+	background-position: -95px -183px;
+}
+
+.a1024 #MaryKay .pad-20 ol li span {
+	font-size: 20px;
+}
+
+.a1024 #comoFunciona .datosTextos .completarFormulario p {
+	padding:40px 0;
+}
+
+.a1024 .comoFunciona .menuEnvia{
+	padding-right: 20px; 
+}
+
+.a1024 .jspVerticalBar {
+	right:20px;
+}
+
+.a1024.ie7 .comoFunciona .menuEnvia{ 
+	width:380px !important;
+}
+
+.a1024 .comoFunciona .menuEnvia li a {
+	font-size: 15px;
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .menuTelefono li a {
+	font-size:24px;
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .modelos {
+	width: 630px;
+	height: auto;
+	padding-top: 15px;
+
+}
+
+.a1024 .internas .numeros {
+	width: 885px;
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .menuTelefono li a:hover span,
+.a1024 #comoFuncionaEnvio .listadoFono .menuTelefono li a.activo span {
+	background-position: -76px -210px;
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .menuTelefono li a span {
+	background-position: -76px -234px;
+}
+
+.a1024 #MaryKay ul.bullet.sprite li span, 
+.a1024 #redTransfer .redTransferSucursales li span, 
+.a1024 #leyDeTransparencia ul.bullet.sprite li span, 
+.a1024 .comoFunciona ul.bullet.sprite li span {
+	background-position: -95px -183px;
+	top: 11px;
+}
+
+.a1024 #MaryKay .activarNip,
+.a1024 #comoFunciona .datosTextos .activarNip {
+	padding:50px 0;
+}
+
+.a1024 #MaryKay ol.blueTab li p,
+.a1024 #comoFunciona ol.blueTab li p {
+	font-size: 19px;
+	width: auto;
+}
+
+.a1024 #MaryKay ol.blueTab li,
+.a1024 #comoFuncionaFondear ol.blueTab li,
+.a1024#comoFunciona ol.blueTab li {
+	width: 295px;
+	padding: 20px 0 25px 15px;
+}
+
+.a1024#MaryKay ol.blueTab li span,
+.a1024 #comoFuncionaFondear ol.blueTab li span,
+.a1024#comoFunciona ol.blueTab li span {
+	background-position: 3px -179px;
+	width: 49px;
+	height: 41px;
+}
+
+.a1024#MaryKay .activarNip .valoresCorrectos li,
+.a1024 #comoFunciona .activarNip .valoresCorrectos li {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+
+.a1024 #MaryKay .activarNip .valoresCorrectos li,
+.a1024 #comoFunciona .activarNip .valoresCorrectos li span {
+	background-position: -93px -103px;
+	top: 11px;
+	width: 9px;
+}
+
+
+.a1024#MaryKay .jcarousel,
+.a1024 .ado .jcarousel,
+.a1024 .comoFunciona .jcarousel {
+	padding: 35px 0 0;
+	width: 580px;
+	height: 354px;
+}
+
+.a1024 #MaryKay .jcarousel ul li p,
+.a1024 .ado .jcarousel ul li p,
+.a1024 .comoFunciona .jcarousel ul li p {
+	font-size: 14px;
+	margin-right: 130px;
+	width: 280px;
+}
+
+.a1024.ie7 #ADO .tabs  {
+	width:960px;	
+}
+
+.a1024.ie7 #ADO ul li img {
+	width:auto;	
+}
+
+.a1024.ie7 #ADO h2 {
+	padding-bottom:10px;
+}
+
+.a1024.ie678 .ado .jcarousel ul li .telefono {
+	background:url(../images/comoFunciona/cambiar2.png) no-repeat;
+}
+
+.a1024.ie7 .ado .jcarousel .cant {
+	padding:0px;	
+}
+
+.a1024.ie7 .comoFunciona .jcarousel ul li p  {
+	width:170px;
+	margin-right: 260px;
+}
+
+.a1024 .comoFunciona .cambiarNip #envioFono .jcarousel {
+	width:580px;
+	height:354px;
+}
+
+
+
+.a1024.ie7 #comoFuncionaEnvio .cambiarNip ul li p {
+	width:150px;
+		
+}
+
+/*.a1024 #comoFuncionaOperaciones .scroll-pane {
+	height:354px;
+}*/
+
+.a1024.ie7 #comoFuncionaOperaciones .scroll-pane {
+	margin-right:30px;
+}
+
+.a1024 #MaryKay .activarNip p, 
+.a1024v #comoFunciona .activarNip p {
+	padding:30px 0 0;
+}
+
+.a1024 #MaryKay .jcarousel ul li .telefono, 
+.a1024 .ado .jcarousel ul li .telefono, 
+.a1024 .comoFunciona .jcarousel ul li .telefono {
+	background-size: 236px;
+	width: 230px;
+}
+
+.a1024 .comoFunciona .jcarousel ul li .telefono {
+	background-size: 220px;
+	background-position: 38px 0;
+}
+
+
+
+.a1024.ie678 .comoFunciona .jcarousel ul li .telefono  {
+	background: url(../images/comoFunciona/cambiar2.png) no-repeat;
+}
+
+/*.a1024 #MaryKay .jcarousel ul li .telefono, 
+.a1024 .ado .jcarousel ul li .telefono, 
+.a1024 .comoFunciona .jcarousel ul li .telefono {
+	background-image:url(../images/comoFunciona/cambiar2.png);
+	width: 238px;
+	
+}*/
+
+.a1024 .comoFunciona .jcarousel ul li .sinTelefono {
+	background-image:none;
+	margin: 20px 0;
+}
+
+.a1024 .comoFunciona .jcarousel ul li .sinTelefono span {
+
+}
+
+.a1024.ie7 #MaryKay .jcarousel ul li .telefono, 
+.a1024.ie7 .ado .jcarousel ul li .telefono, 
+.a1024.ie7 .comoFunciona .jcarousel ul li .telefono  {
+	margin-right:5px;
+}
+
+.a1024 #MaryKay .jcarousel ul li .telefono span, 
+.a1024 .ado .jcarousel ul li .telefono span, 
+.a1024 .comoFunciona .jcarousel ul li .telefono span {
+	font-size:16px;
+	
+}
+
+.a1024 .comoFunciona .jcarousel ul li .telefono span  {
+	padding: 70px 30px 0;
+}
+
+.a1024 .comoFunciona .jcarousel ul li .sinTelefono {
+	background-image:none;
+	margin: 20px 0;
+}
+
+.a1024 .comoFunciona .jcarousel ul li .sinTelefono span {
+	padding-top: 20px;	
+}
+
+.a1024 .comoFunciona .datosTextos .content {
+	padding: 70px 0 0;
+}
+
+.a1024.ie678 #comoFuncionaFondear.comoFunciona .jcarousel ul li:first-child div {
+	background:none;
+}
+
+.a1024 #MaryKay .jcarousel, 
+.a1024 .ado .jcarousel, 
+.a1024 .comoFunciona .jcarousel li {
+	width: 705px !important;
+	height:354px;
+}
+
+.a1024 #ADO .jcarousel .cant p {
+	padding: 0px 0;	
+}
+
+
+.a1024 #comoFunciona .tarjetas {
+	padding: 60px 0 40px;
+}
+
+.a1024 #comoFunciona .tarjetas img {
+	width: 318px;
+	padding: 35px 0;
+}
+
+.a1024 .datosTextos .activarNip img {
+	width:564px;
+}
+
+.a1024 .internas .grayContent p {
+	font-size: 20px;
+	padding: 20px 0;
+}
+.a1024 .internas ul.bullet.sprite li{
+	font-size:19px;
+}
+.a1024 .internas ul.bullet.sprite li span{
+	background-position:-95px -95px;
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .modelos li ul li {
+	padding-bottom: 5px;
+}
+
+.a1024 #comoFunciona .asocia ol.blueTab li {
+	margin-left: 10px;
+	width: 188px;
+	
+}
+
+.a1024 #comoFunciona .asocia ol.blueTab li span {
+	background-position: 6px -183px;
+	font-size:20px;
+	margin: 0 35% 5% 35%;
+}
+
+.a1024 #comoFunciona .asocia ol.blueTab li p {
+	font-size: 16px;
+	width: 170px;
+}
+
+.a1024 #comoFunciona .activacion {
+	width: 910px;
+}
+
+.a1024 #comoFunciona .activacion li {
+	width: 238px;
+	margin-left: 40px;
+	
+}
+
+.a1024.ie8 #comoFunciona .activacion li {
+	width:245px;
+}
+
+.a1024.ie8 #comoFunciona .activacion li .telefono {
+	width:218px;
+}
+
+.a1024 #comoFunciona .activacion li:first-child {
+	margin-left: 40px;
+}
+
+.a1024 #comoFunciona .activacion li .telefono ul li {
+	margin-left: 0px;
+}
+
+.a1024 #comoFunciona .activacion li .telefono {
+	background-size: 236px;	
+	height: 354px;
+	width: 238px;
+}
+
+.a1024.ie678 #comoFunciona .activacion li .telefono {
+	background-image:url(../images/comoFunciona/cambiar2.png);
+	background-size: 236px;	
+	height: 354px;
+	width: 238px;
+}
+
+.a1024 #comoFunciona .activacion li .telefono ul {
+	width: 231px;
+	bottom: 86px;
+}
+
+.a1024 #comoFunciona .activacion li .telefono span {
+	padding: 80px 40px 0;
+	font-size: 14px;
+}
+
+.a1024.ie8 #comoFunciona .activacion li .telefono span {
+	margin-left:-5px;
+}
+
+.a1024 #comoFunciona .activacion li p {
+	font-size:17px;
+}
+
+.a1024 #comoFunciona .sucu {
+	width: 198px;
+}
+
+.a1024 #comoFunciona .asocia {
+	padding-bottom: 60px;
+}
+
+.a1024 .datosTextos .cambiarNip  #envioFono {
+	width:300px;	
+}
+
+.a1024.ie8 .datosTextos .cambiarNip  #envioFono {
+	width:300px;	
+}
+
+
+
+/*RED TRANSFER*/
+
+.a1024 #redTransfer .afiliados,
+.a1024 #redTransfer .redTransferSucursales {
+	width: 960px;
+}
+
+.a1024 #redTransfer .redTransferSucursales p {
+	font-size: 20px;
+}
+
+.a1024 #redTransfer .redTransferSucursales li {
+	font-size: 20px;
+}
+
+.a1024 #redTransfer .afiliados ul {
+	width: 960px;
+}
+
+.a1024.ie7 #redTransfer .afiliados ul li {
+	float:left;
+	
+	
+}
+
+.a1024.ie7 #redTransfer .afiliados ul li ul {
+	width:150px;
+}
+
+.a1024 #redTransfer .afiliados > ul > li {
+	width: 170px;
+	padding: 0 70px;
+	height: auto;
+}
+
+
+.a1024 #redTransfer .afiliados > ul > li .afiliado1 img {
+	width: 50px;
+	height: auto;
+}
+
+.a1024 #redTransfer .afiliados > ul > li .afiliado2 img {
+	width: 170px;
+	height: auto;
+}
+
+.a1024 #redTransfer .afiliados > ul > li .afiliado3 img {
+	width: 190px;
+	height: auto;
+}
+
+.a1024 #redTransfer .afiliados > ul > li .afiliado4 img {
+	width: 105px;
+	height: auto;
+}
+
+.a1024 #redTransfer .afiliados ul ul li {
+	font-size:16px;
+	
+}
+
+.a1024 #redTransfer .afiliados ul ul li span {
+	background-position: -96px -184px;
+	top: 9px;
+	height: 10px;
+	width: 10px;
+}
+
+#redTransfer .headerContent .titulos p {
+	font-size:22px;
+	line-height:24px;
+}
+
+/*FOOTER */
+
+.a1024 .footer .detalles li {
+	font-size: 13px;
+	padding: 0 0 0 85px;
+}	
+
+.a1024 .footer .detalles .atencion {
+	padding-left: 70px;
+}
+
+.a1024 .footer .detalles .atencion span {
+	background-position: -48px -40px;
+	width: 24px;
+	
+}
+
+.a1024 .footer .detalles .llama {
+	padding-left: 70px;
+}
+
+.a1024 .footer .detalles .llama span {
+	background-position: -72px -40px;
+	width: 23px;
+	
+}
+
+.a1024 .footer .detalles .marca {
+	 padding-left: 70px;
+}
+
+.a1024 .footer .detalles .marca span {
+	background-position: -96px -41px;
+	width: 20px;
+}
+
+.a1024 .footer .detalles li span {
+	width: 29px;
+	left: 40px;
+	height: 23px;
+}
+
+.a1024 .footer .app li {
+	padding: 35px 15px 0;
+}
+
+.a1024 .footer .app li a {
+	font-size: 13px;
+	
+}
+
+.a1024 .footer .app .redTransfer span {
+	background-position: -116px -40px;
+}
+
+.a1024 .footer .app .descarga span {
+	background-position: -140px -42px;
+}
+
+.a1024 .footer .logos .banamex a span {
+	background-position: 0 -121px;
+	height: 30px;
+	width: 145px;
+}
+
+.a1024 .footer .logos .telcel a span {
+	background-position: -90px -71px;
+}
+
+.a1024 .footer .footerBottom .menu li a {
+	font-size:11px;
+}
+
+.a1024 .footer .footerBottom .redes {
+	float: left;
+	padding: 28px 0 0;
+	height: 26px;
+	overflow: hidden;
+}
+.a1024 .footer .footerBottom .logos{
+	padding-right: 30px;
+}
+
+.a1024 .footer .footerBottom .redes li {
+	font-size:11px;
+	width: 25px;
+}
+.a1024 .footer .footerBottom .redes li.title {
+	width:50px;
+}
+
+.a1024 .footer .footerBottom .redes li span {
+	height: 28px;
+	width: 28px;
+}
+
+.a1024 .footer .footerBottom .redes li.fb a span {
+	background-position: 0 -64px;
+}
+
+.a1024 .footer .footerBottom .redes li.fb a:hover span {
+	background-position: 0 -92px;
+}
+
+.a1024 .footer .footerBottom .redes li.tw a span {
+	background-position: -32px -64px;
+}
+
+.a1024 .footer .footerBottom .redes li.tw a:hover span {
+	background-position: -32px -92px;
+}
+
+.a1024 .footer .footerBottom .redes li.yt a span {
+	background-position: -63px -64px;
+}
+
+.a1024 .footer .footerBottom .redes li.yt a:hover span {
+	background-position: -63px -92px;
+}
+
+.a1024 .footer .footerBottom {
+	padding-bottom: 50px;
+}
+
+/*Que es*/
+
+.a1024 #queEsTransfer .blockTop li {
+	height: 210px;
+}
+
+.a1024 .blockTop {
+	width: 910px;
+}
+
+.a1024 #queEsTransfer .blockTop li p {
+	font-size:11px;
+}
+
+.a1024 .internas .headerContent ul.bullet.sprite li {
+	font-size:22px;
+}
+
+.a1024 .textContent ul.bullets li {
+	font-size:18px;
+}
+
+.a1024 .textContent ul.bullets li span {
+	background: url(../images/global/sprite_global2.png) no-repeat;	
+	height: 31px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-ife span {
+	background-position: -169px -43px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-client span {
+	background-position: -170px 1px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-money span {
+	background-position: -166px -244px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-percentage span {
+	background-position: -174px -85px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-deposit span {
+	background-position: -174px -123px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-sms span {
+	background-position: -176px -161px;
+}
+
+.a1024 #queEsTransfer .features .bullets li.icon-card span {
+	background-position: -173px -206px;
+}
+
+.a1024 .titulos.bordered {
+	margin-bottom:30px;
+}
+
+.a1024 .textContent .titulos {
+	padding:35px 0;
+}
+
+.a1024 .engage {
+	width: 930px;
+}
+
+.a1024.ie7 .engage {
+	width:900px;
+}
+
+.a1024.ie678 .blockTopQue {
+	margin-top:15px;
+}
+
+.a1024 .blockTopQue {
+	width: 890px;
+}
+
+.a1024.ie7 .blockTopQue li span {
+	margin-top:-20px;
+}
+
+.a1024 .blockTopQue li b {
+	background:url(../images/queEsTransfer/btn-solapas2.png) no-repeat;
+}
+
+.a1024 .blockTopQue li b.btn1 {
+	background-position: 22px 14px;
+}
+
+.a1024 .blockTopQue li b.btn2 {
+	background-position: -129px 14px;
+}
+
+.a1024 .blockTopQue li b.btn3 {
+	background-position: -285px 14px;
+}
+
+.a1024 .blockTopQue li b.btn4 {
+	background-position: -432px 14px;
+}
+
+.a1024 .blockTopQue li b.btn5 {
+	background-position: -550px 13px;
+}
+
+.a1024 .blockTopQue li b.btn6 {
+	background-position: -671px 13px;
+}
+
+.a1024 .blockTopQue li div h3 {
+	font-size:16px;
+}
+
+.a1024 .blockTopQue li:hover b.btn1,
+.a1024 .blockTopQue li.activo b.btn1 {
+	background-position:22px -82px;
+}
+
+.a1024 .blockTopQue li:hover b.btn2,
+.a1024 .blockTopQue li.activo b.btn2 {
+	background-position:-129px -82px;
+}
+
+.a1024 .blockTopQue li:hover b.btn3,
+.a1024 .blockTopQue li.activo b.btn3 {
+	background-position:-285px -82px;
+}
+
+.a1024 .blockTopQue li:hover b.btn4,
+.a1024 .blockTopQue li.activo b.btn4 {
+	background-position:-432px -82px;
+}
+
+.a1024 .blockTopQue li:hover b.btn5,
+.a1024 .blockTopQue li.activo b.btn5 {
+	background-position:-550px -83px;
+}
+
+.a1024 .blockTopQue li:hover b.btn6,
+.a1024 .blockTopQue li.activo b.btn6 {
+	background-position:-671px -83px;
+}
+
+.a1024 .blockTopQue li div p {
+	font-size: 16px;
+}
+
+/*saldazos*/
+
+.a1024 #saldazo .boxSaldazos li {
+	width: 270px !important;
+}
+
+.a1024 .internas .grayContent img {
+	width: 100%;
+	height: auto;
+}
+
+.a1024 .internas .grayContent img.adomovil  {
+	width: 71px;	
+}
+
+.a1024 .chrome .ado .bggray .telefonos ul, 
+.a1024 .ado .bggray .telefonos ul {
+	width: 940px;
+}
+
+.a1024 .ado .bggray .telefonos ul li {
+	font-size: 19px;
+	padding-left: 50px;
+}
+
+.a1024 .comoHago .boxTop .content  img {
+	width:auto;
+}
+
+.a1024 .comoHago .cambiarNip .bx-wrapper ul li {
+	width: 706px !important;	
+}
+
+.a1024 .comoHago .cambiarNip .bx-wrapper ul li:nth-child(4) div {
+	background-image:none;	
+}
+
+.a1024 .ado .bggray .telefonos ul li span {
+	background-position: -72px -38px;
+	width: 28px;
+}
+
+.a1024 #MaryKay .headerContent {
+	height: 472px;
+}
+
+.a1024 #MaryKay ol {
+	margin-left: 18px;
+	width: 825px;
+}
+
+
+.a1024 #MaryKay ol.blueTab li {
+	width: 280px;
+}
+
+.a1024 #MaryKay ol.blueTab li p{
+	width: 210px;
+	padding-top: 0px;
+}
+
+.a1024 #MaryKay .activarNip .valoresCorrectos li {
+	width: 801px;
+}
+
+.a1024 #MaryKay .jcarousel .bx-viewport ul li  {
+	width: 710px !important;	
+}
+
+.a1024.ie7 #MaryKay .textContent h2.light.sprite{
+	width:auto;
+	max-width:400px;
+}
+
+.a1024 .aviso-legal {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 890px;
+}
+
+.a1024 .guia--item .guia--image {
+	width:auto !important;
+}
+
+.a1024 #saldazo .boxSaldazos .box2x1 {
+	height: 221px;
+}
+
+.a1024 #saldazo .boxSaldazos .box2x1 p {
+	font-size: 13px;
+}
+
+.a1024 #saldazo .titulos .btnNaranja {
+	width: 188px;
+}
+
+.a1024 .tarjetaSaldazo .boxContent img {
+	width:316px;
+}
+
+.a1024 #saldazo .boxContent h2.sprite {
+	margin:40px 0;
+}
+
+.a1024 #saldazo .nota {
+	padding: 60px 0 10px;
+}
+
+.a1024 #saldazo .contact-us {
+	padding:50px 0;
+}
+
+.a1024 #saldazo .contact-us h2 {
+	font-size:26px;
+}
+
+.a1024 #saldazo .contact-us p {
+	font-size: 20px;
+}
+
+.a1024 #saldazo .contact-us .icon-tel {
+	background: url("../images/global/sprite_global2.png") -72px -33px no-repeat;
+	width: 26px;
+}
+
+.a1024.ie7 #saldazo .contact-us .icon-tel {
+	margin-left:10px;
+}
+
+.a1024.ie7 #saldazo .contact-us strong {
+	margin-left:-10px;
+}
+
+.a1024 #saldazo .banner-top-right {
+	background-size: 226px;
+	top: 56px;
+	width: 226px;
+	height: 99px;
+}
+
+.a1024.ie678 #saldazo .banner-top-right {
+	background:url("../images/saldazo/saldazo-top-right2.png") no-repeat;
+}
+
+.a1024 #saldazo .headerContent .sprite {
+	width:545px;
+}
+
+#saldazo .headerContent .sprite
+#saldazo .headerContent h2 {
+	width:350px;
+	
+}
+
+/*ayuda*/
+
+.a1024 .valoracion_tr a.back_stars span {
+	background-position: -208px -237px;
+}
+
+.a1024 #redes li a.fb_share_button span {
+	background-position: -215px -255px;
+	height: 26px;
+	margin-top: 2px;
+	width: 28px;
+}
+
+.a1024 #redes li a.fb_share_button span:hover {
+	background-position: -215px -280px;
+}
+
+.a1024 #redes li a.twitter-share-button span {
+	background-position: -244px -255px;
+	margin-top: 2px;
+	height: 25px;
+}
+
+.a1024 #redes li a.twitter-share-button span:hover {
+	background-position: -244px -280px;
+} 
+
+.a1024 #ayuda .textContent .titulos {
+	width: 956px;
+
+}
+
+.a1024 .accordion--title {
+	font-size:23px;
+}
+
+.a1024 #ayuda ol h3 {
+	font-size: 22px;
+}
+
+.a1024 #redes li {
+	font-size: 16px;
+}
+
+.a1024.ie7 .guia h2  {
+	padding-bottom:10px;
+}
+
+.a1024 .list a {
+	font-size:20px;
+}
+
+	
+.a1024 .internas .grayContent h2.light {
+	margin-top: 20px;
+}
+
+.a1024.ie7.internas .grayContent h2.light {
+	width:600px;
+}
+
+
+.a1024 #MaryKay .jcarousel .cant, 
+.a1024 .ado .jcarousel .cant,
+.a1024 .comoFunciona .jcarousel .cant {
+	right: 95px;
+
+}
+
+.a1024 .comoFunciona .jcarousel .cant  {
+	right: 30px;
+}
+
+
+.a1024 .comoFunciona #envioFono .bx-viewport ul li span img {
+		max-width: 196px;
+}
+
+.a1024 table#tabla_ley_trans {
+	width:900px;
+}
+
+.a1024 #ley_trans_table .bullet {
+	width: 900px !important;		
+}
+
+.a1024 #promosMecanica .mecanica {
+	width: 950px;
+}
+
+.a1024 #promosMecanica .mecanica .premio .left {
+	width: 560px;
+}
+
+.a1024 #promosMecanica .mecanica .premio {
+	padding: 0 40px;
+}
+
+.a1024 #promosMecanica .mecanica .premio .right {
+	margin-left: 20px;
+}
+
+.a1024 #promosMecanica .mecanica .premio .right li span {
+	background-position: -96px -102px;
+	top: 12px;
+} 
+
+.a1024 #promosBasesLegales .bases {
+	width: 900px;
+}
+
+.a1024 .ganadores {
+	padding-left: 40px !important;
+	width: 710px;
+}
+
+.a1024 .ganadores h2 {
+	margin-left: 160px;
+}
+
+.a1024 .ganadores ul li {
+	font-size: 16px;
+	width: 340px;
+}
+
+.a1024 .ganadores ul li span {
+	background-position: -97px -96px;
+}
+
+.a1024 .faqs {
+	width: 900px;
+}
+
+.a1024 #promosMecanica .mecanica .premio .left img  {
+	width: 410px;
+}
+.a1024 #queEsTransfer ul.bullet.sprite li{
+	font: 16px/18px 'pt_sansregular';
+}
+.a1024 #queEsTransfer ul.bullet.sprite li span{
+	background-position: -95px -102px;
+}
+
+.a1024 .comoFunciona .tabs_comofunciona {
+	width:100%;
+
+}
+
+.a1024 .comoFunciona .menuEnvia li {
+	width: 317px;
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li ul li {
+	width: 470px;
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li a {
+	padding: 25px 104px;
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li span.flecha {
+	background-position: -412px -175px;
+	height: 15px;
+	margin: -7px 0 0 207px;
+	width: 34px;	
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li:hover span.flecha {
+	margin: -7px 0 0 207px;
+
+}
+
+.a1024 .comoFunciona .menuEnvia li a.activo span.flecha {
+	background-position: -450px -175px;
+	height: 21px;
+	margin: 30px 143px 0;
+	width: 38px;
+}
+
+.a1024 .comoFunciona .menuEnvia li:hover span.flecha { 
+	background-position: -450px -175px;
+	height: 21px;
+	margin: 30px 143px 0;
+	width: 38px;
+}
+
+.a1024 .comoFunciona .datosTextos .cambiarNip  #envioFono {
+	width: 960px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaFondear #envioFono .jcarousel,
+.a1024 .comoFunciona#comoFuncionaEnvio #envioFono .jcarousel,
+.a1024 .comoFunciona#comoFuncionaOperaciones #envioFono .jcarousel {
+	width: 960px;
+}
+
+.a1024 .comoFunciona #envioFono .jcarousel li {
+		width: 960px !important;
+}
+
+.a1024 .comoFunciona .textos {
+	width: 590px;
+	padding: 30px 0 0 40px;
+
+}
+
+.a1024 .comoFunciona .menuEnvia#corresponsal_submenu li a span.flecha {
+	background-position: -450px -175px;
+	height: 21px;
+	margin: 30px 460px 0;
+	width: 38px;	
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li a span.envio {
+	background-position: -569px -2px;
+	width: 141px;
+	height: 52px;
+
+}
+
+
+.a1024 .comoFunciona .tabs_comofunciona li a:hover span.envio  {
+	background-position: -569px -54px;
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li.activado a span.envio  {
+	background-position: -569px -54px;
+
+}
+
+
+.a1024 .comoFunciona .tabs_comofunciona li a span.recibo {
+	background-position: -715px -2px;
+	width: 113px;
+	height: 66px;
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li.activado a span.recibo {
+	background-position: -715px -2px;
+	width: 113px;
+	height: 66px;
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li a:hover span.recibo {
+	background-position: -715px -67px;
+
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li.activado a span.recibo {
+	background-position: -715px -67px;	
+}
+
+.a1024 .comoFunciona#comoFuncionaEnvio .menuEnvia li {
+	width: 238px;
+
+}
+
+.a1024 #comoFuncionaEnvio .listadoFono .menuTelefono li {
+	width: 192px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li {
+	width: 191px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a {
+	width: 155px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a span.tiempo {
+	background-position: -798px -164px;
+	height: 66px;
+	width: 62px;
+}
+
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li.activado a span.tiempo,
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a:hover span.tiempo {
+ 	background-position: -798px -230px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a span.retirar {
+	background-position: -499px -158px;
+	height: 66px;
+	width: 94px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li.activado a span.retirar,
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a:hover span.retirar  { 
+	background-position: -499px -220px;
+}
+
+.a1024 .comoFunciona .tabs_comofunciona li a span.texto {
+	font-size:19px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a span.consultar {
+	background-position: -594px -157px;
+	height: 66px;
+	width: 62px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li.activado a span.consultar,
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a:hover span.consultar  {  
+	background-position: -594px -217px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a span.solicitar {
+	background-position: -658px -156px;
+	height: 66px;
+	width: 70px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li.activado a span.solicitar,
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a:hover span.solicitar  {  
+	background-position: -658px -216px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a span.cuenta {
+	background-position: -735px -157px;
+	height: 66px;
+	width: 52px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li.activado a span.cuenta,
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li a:hover span.cuenta  {  
+	background-position: -735px -219px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .tabs_comofunciona li span.flecha  {
+	margin: 0px 0 0 80px;
+
+}
+
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .menuEnvia#tiempo_submenu li {
+	width: 476px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .menuEnvia#retirar_submenu li {
+	width: 476px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .menuEnvia#consultar_submenu li {
+	width: 316px;
+
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .menuEnvia#solicitar_submenu li {
+	width: 476px;
+}
+
+.a1024 .comoFunciona#comoFuncionaOperaciones .menuEnvia#cuenta_submenu li {
+	width: 188px;
+
+}
+
+/*OXXO*/
+
+.a1024 .oxxo .headerContent {
+	background-position: -490px 0;
+}
+
+.a1024 .oxxo .seccion {
+	width: 980px;
+}
+
+.a1024 .oxxo .copa img {
+	width: 145px;
+}
+
+.a1024 #promos .participa {
+	height: 17px;
+}
+
+.a1024 .toks .jcarousel li {
+	width: 710px !important;
+}
+
+.a1024 .toks .jcarousel li .telefono img {
+	width:60%;
+}

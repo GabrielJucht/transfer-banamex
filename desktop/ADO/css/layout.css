@@ -1,0 +1,248 @@
+/* ADO - QUE ES */
+.ado .headerContent{
+	background: url(../images/bg-header.jpg) top center no-repeat;
+}
+.ado .headerContent .titulos{
+	padding-top:114px; 
+}
+.ado .boxTop{
+	padding: 55px 0 100px;
+}.ado.comoHago .boxTop{
+	padding: 55px 0 50px;
+}
+.ado .boxTop p{
+	padding: 30px 0 0;
+}
+.ado .boxTop .btnNaranja{
+	margin:50px auto 0;
+}
+.ado .adomovil{
+	display: block;
+	margin: 40px auto 10px !important;
+}
+.ado .boxTop ol {
+	padding: 60px 0 0;
+}
+.ado.comoHago .boxTop ol {
+	padding: 30px 0 0;
+}
+.ado .boxTop ol li{
+	width: 100%;
+	text-align:center;
+	padding: 0 0 60px;
+}
+.ado .boxTop ol li ul{
+	padding: 60px 0 50px;
+	overflow:hidden;
+	width:620px;
+	margin: 0 auto;
+}
+.ado .boxTop ol li ul li{
+	float:left;
+	padding: 0 35px;
+	width:auto;
+}
+.ado .boxTop ol h3 {
+	color: #34465c;
+	text-transform: none;
+	font-size: 26px;
+	margin-bottom: 15px;
+	font-family:'Open Sans';
+}
+
+.ado .boxTop ol h3 a{
+	color:#00ace8;
+	text-decoration:underline;
+}
+
+.ado .boxTop ol h3 a:hover{
+	color: #ff9800;
+}
+.ado .boxTop ol b {
+	color: #00ace8;
+}
+.ado .boxTop ol img{
+	padding-bottom:15px;
+}
+.ado .bggray{
+	padding:80px 0 0px;
+}
+.ado .bggray .telefonos{
+	padding-bottom: 40px;
+}
+.ado .bggray .telefonos ul{
+	padding: 35px 0 0;
+	width: 1060px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.chrome .ado .bggray .telefonos ul,
+.ie678 .ado .bggray .telefonos ul{
+	width: 1100px;
+}
+.ado .bggray .telefonos ul.unelemento{
+	width: 410px;
+	padding-bottom:40px;
+}
+.chrome .ado .bggray .telefonos ul.unelemento,
+.ie678 .ado .bggray .telefonos ul.unelemento{
+	width: 430px;
+}
+.ado .bggray .telefonos ul li{
+	float:left;
+	text-align: center;
+	width:auto;
+	padding: 0 15px 0 60px;
+	font: 22px 'Open Sans';
+	position:relative;
+}
+.ado .bggray .telefonos ul li span{
+	background-position:-90px -50px;
+	width:30px;
+	height: 30px;
+	position: absolute;
+	top:0;
+	left:15px;
+}
+.ado h2 strong{
+	font-family:  'Open Sans';
+}
+.blockBottom li .box h2 span.bold{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.ado .jcarousel {
+    height: 390px;
+    margin-bottom: 80px;
+    padding: 40px 0 0;
+    width: 700px;
+}
+
+.ado .jcarousel ul li .telefono.sinTelefono span{
+	padding: 0;
+}
+.ado small {
+    color: #34465c;
+    font: 300 16px/22px "Open Sans Light";
+    padding: 40px 0;
+    text-align:center;
+    display:block;
+}
+.ado small a{
+	color:#00ace8;
+	text-decoration: underline;
+	cursor: pointer;
+	position: relative;
+	z-index:100;
+}
+.ado small a:hover{
+	color:#ff9800;
+}
+.ado .jcarousel ul li img{
+	float: left;
+}
+.ado .jcarousel ul li .telefono{
+	background: url(../../images/comoFunciona/cambiar.png) no-repeat;
+	width:295px;
+	height: 389px;
+	margin: 0 30px 0 0;
+	padding-right:30px;
+	border-right:1px solid  #f5f5f5;
+	float:left;
+}
+.ado .jcarousel ul li .telefono span{
+	padding: 100px 40px 0;
+	display:block;
+	font-size:21px;
+	text-align:center;
+	line-height: 1em;
+	overflow:hidden;
+	max-height: 238px;
+}
+.ado .jcarousel ul li .telefono.sinTelefono{
+	background:none;
+}
+.ado .jcarousel ul li .telefono.sinTelefono span{
+	padding: 0 40px;
+	max-height:338px;
+}
+.ado .jcarousel ul li .telefono span img{
+	display:block;
+	margin:0 auto;
+	padding-bottom:5px;
+	/*height:50px;*/
+	float: none;
+}
+.ado .jcarousel ul li .telefono span strong{
+	padding-bottom: 20px;
+	display:inline-block;
+}
+.ado .jcarousel ul li p{
+	width: 340px;
+	float:right;
+	font:19px 'Open Sans Light';
+	font-weight: 300;
+	text-align:left;
+	line-height:normal;
+	float:right;
+}
+.ado .jcarousel ul li p a{
+	color: #00ace8;
+	text-decoration: underline;
+}
+.ado .jcarousel ul li p a:hover{
+	color: #ff9800;
+}
+.ado .jcarousel ul li p span{
+	font-weight:bold;
+}
+
+.ado .jcarousel .cant{
+	position: absolute;
+	bottom:0px;
+	right:92px;
+	text-align: center;
+	background:#d1d1d1;
+	width:150px;
+	border-radius:5px;
+}
+.ado .jcarousel .cant p{
+	color: #34465c;
+	font:20px 'Open Sans';
+	text-align:center;
+	text-transform:uppercase;
+	padding:0 15px;
+}
+.ado .jcarousel .cant p .tot{
+	color:#19ace3;
+}
+.ado .jcarousel{
+	width: 702px;
+	height:390px;
+	padding:40px 0 0;
+	margin-bottom: 80px;
+}
+.ado .footer .detalles li{
+	font-size: 15px;
+}
+
+.ado .ado_mobile {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 81% !important;
+}
+
+.ado .ado_mobile h3 {
+	float:left;
+}
+
+.ado .ado_mobile img {
+	float: left;
+	margin: -20px 20px !important;
+}	 
+
+
+

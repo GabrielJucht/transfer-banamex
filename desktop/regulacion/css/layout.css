@@ -1,0 +1,109 @@
+/* Regulacion */
+.regulacion .headerContent{
+	background: url(../images/bg-header.jpg) top center no-repeat;
+}
+.headerContent .titulos h1{
+	font-weight:normal;
+}
+
+.regulacion .boxTop .article .content{
+	margin-top:-42px;
+	background: #fff;
+}
+.regulacion .boxTop .text-content{
+	padding: 75px 65px 0;
+}
+.regulacion .boxTop .text-content h3{
+	text-transform: none;
+	font-size:24px;
+}
+.regulacion b{
+	color: #19ace3;
+}
+.regulacion .text-center{
+	text-align:center;
+	margin:0 auto;
+	padding: 40px 0 !important;
+}
+.regulacion .alignLeft{
+	float:left;
+}
+.regulacion .alignRight{
+	float: right;
+}
+.regulacion .title{
+	padding: 160px 0 0 60px;
+}
+.regulacion .title p{
+	font-size:20px;
+}
+.regulacion h4{
+	font: 24px 'Open Sans';
+	color:#19ace3
+}
+.regulacion h5{
+	font: 24px 'Open Sans';
+}
+.regulacion .fone{
+	width: 475px;
+	padding-right:45px;
+}
+.regulacion .fone h4{
+	padding-top: 155px;
+}
+.regulacion .fone3{
+	padding-right:45px;
+}
+.regulacion hr{
+	margin: 0 0 110px;
+	border:none;
+	border-bottom: 1px solid #f2f2f2;
+}
+.regulacion .fone2 p{
+	width:580px;
+	padding-top:80px !important;
+}
+.regulacion ol li ol li:first-child{
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 40px;
+}
+.regulacion .title2{
+	width: 465px;
+}
+.regulacion .title3{
+	padding-top:0;
+}
+.internas .grayContent p{
+	padding: 0 0 40px;
+}
+.regulacion ol{
+	padding-bottom: 100px;
+	
+}
+.regulacion ol ol{
+	padding-bottom: 0px;
+	margin-top:-40px;
+}
+.regulacion ol li ul{
+	padding: 0 65px;
+}
+.regulacion ol li ul li{
+	font-size: 20px;
+	padding: 0 0 10px 15px;
+	background:url(../images/ul.png) no-repeat 0px 13px;
+}
+.regulacion small{
+	font-size: 20px;
+	display: block;
+	padding:0 65px 40px;
+}
+.regulacion .btnNaranja{
+	margin: 0 auto;
+}
+.regulacion .footer .detalles li{
+	text-align: left;
+}
+
+#colorbox {
+	top: 261px !important;
+}

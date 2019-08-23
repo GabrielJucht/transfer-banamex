@@ -1,0 +1,63 @@
+				<div class="jcarousel" id="box4">
+					<ul>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS al 4040</strong><br>Solicitud Tarjeta</span>
+							</div>
+							<div class="textos">
+								<p>Solicita tu tarjeta de débito ya sea por primera vez o por reposición.</p>
+								<p><span>1.</span> Redacta un mensaje de texto desde tu celular con las palabras SOLICITUD TARJETA y envíalo al 4040.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Si deseas confirmar la solicitud de tu tarjeta ingresa tu NIP </span>
+							</div>
+							<div class="textos">
+								<p><span>2.</span> Recibirás un mensaje para que confirmes la operación ingresando tu NIP.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Ingresa el número de motivo de la solicitud:<br>
+								1. Primera tarjeta<br>
+								2. Robo o extravío<br>
+								3. Fecha de vencimiento<br>
+								4. Retención en ATM<br>
+								5. Tarjeta dañada</span>
+							</div>
+							<div class="textos">
+								<p><span>3.</span> Recibirás un mensaje para que indiques el motivo de la solicitud de tu tarjeta.</p>
+								<p>Ingresa el número correspondiente.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Solicitud de tarjeta exitosa. Puedes recogerla en cualquier corresponsal o sucursal Banamex con tu No. Folio 12345678 Vigencia XX días </span>
+							</div>
+							<div class="textos">
+								<p><span>4.</span> Recibirás un mensaje de texto con el estatus de tu operación, el número de folio de la solicitud y la vigencia.</p>
+								<p>Recógela presentando ese número de folio y con una identificación oficial vigente.</p>
+							</div>
+						</li>
+					</ul>
+					<div class="cant" id="cant">
+						<p>paso <span class="act">1</span> de <span class="tot"></span></p>
+					</div>
+				</div><!-- Box4 -->
+<script>
+$(function(){
+	var slider = $('.jcarousel ul').bxSlider({
+		pager: false,
+		controls: true,
+		infiniteLoop:false,
+		hideControlOnEnd: true,
+		onSlideAfter: function(currentIndex){
+			current = slider.getCurrentSlide()+1;
+			$(".jcarousel #cant .act").text(current);
+		}
+	});
+	var slideQty = slider.getSlideCount();
+	$(".jcarousel #cant .tot").text(slideQty);
+});
+</script>

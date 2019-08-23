@@ -1,0 +1,143 @@
+/* ADO - QUE ES */
+.headerContent{
+	background: url('../images/bg-header.jpg') top center no-repeat;
+}
+.bgwhite{
+	background: #fff;
+}
+.calendario{
+	background: url('../images/calendario.png') no-repeat;
+	display: block;
+	margin: 0 auto;
+	width: 105px;
+	height: 105px;
+}
+.internas .numeros li.alignCenter{
+	text-align: center;
+}
+.internas .numeros > li{
+	font-weight: bold;
+}
+.internas ul.bullet.sprite li span{
+	top:14px;
+}
+.internas ul.bullet{
+	margin-top: 40px;
+}
+.internas ul.bullet.sprite li{
+	padding: 0 15px;
+	font: 21px "Open Sans light";
+}
+p.bajada{
+	color: #34465c;
+    font: 300 26px "Open Sans Light";
+}
+.internas .condiciones li,.internas .condiciones li span{
+	font-size: 14px;
+	line-height: 22px;
+}
+.internas .condiciones{
+	padding: 30px 30px 70px 30px;
+}
+.internas .condiciones li{
+	padding: 0;
+}
+.clientes{
+	overflow: hidden;
+	display: block;
+	margin-bottom: 20px;
+}
+.clientes h4{
+	text-align: center;
+	font-size: 28px;
+	padding: 60px 0 40px;
+}
+.padding{
+	padding: 0 40px;
+}
+.maria {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 120px;
+    width: 840px;
+}
+.comisiones .titulos.bordered{
+	border-bottom: none;
+}
+.maria li:first-child{
+	margin-left: 0;
+}
+.maria li {
+    float: left;
+    margin-left: 43px;
+    overflow: hidden;
+}
+.maria li.width220{
+	width: 250px;
+	padding-bottom: 60px;
+}
+.maria li.center{
+	margin: 0 auto;
+}
+.maria li.centerWidth{
+	margin-left: 155px;
+}
+
+.ie7 .maria li.centerWidth{
+	margin-left: 120px;
+	width:600px;
+}
+
+.maria li p{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+.maria-img01{
+	background-position: 0 0;
+}
+.maria-img02{
+	background-position: -110px 0;
+}
+.maria-img03{
+	background-position: -231px 0;
+}
+.maria-img04{
+	background-position: -337px 0;
+}
+.maria .bajada{
+	padding: 20px 0;
+}
+.juan-img01{
+	background-position: 0 -118px;
+}
+.juan-img02{
+	background-position: -110px -118px;
+}
+.juan-img03{
+	background-position: -331px -118px;
+}
+.juan-img04{
+	background-position: -207px -118px;
+}
+.maria li p.monto{
+	font-size: 14px;
+	text-align: center;
+}
+p.monto span{
+	color: #00ade9;
+}
+.comisiones .btnNaranja{
+	margin: 0 auto;
+}
+.box{
+	padding: 0 0 30px;
+}
+
+.ie8 #comisiones .condiciones li {
+	font-size:14px;
+}
+
+.ie678 .maria .center {
+	width:800px;
+}

@@ -1,0 +1,91 @@
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border-bottom:1px solid #CCC; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(../images/global/fondo_lightbox.png) repeat 0 0;}
+#colorbox{}
+    #cboxTopLeft{width:21px; height:21px; background:url(../images/global/colorbox/corner_left-top.png) no-repeat;}
+    #cboxTopRight{width:21px; height:21px; background:url(../images/global/colorbox/corner_right-top.png) no-repeat ;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(../images/global/colorbox/corner_down-left.png) no-repeat }
+    #cboxBottomRight{width:21px; height:21px; background:url(../images/global/colorbox/corner_down-right.png) no-repeat;}
+    #cboxMiddleLeft{width:21px; background:url(../images/global/colorbox/borde_lat_left.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(../images/global/colorbox/borde_lat_right.png) repeat-y;}
+    #cboxTopCenter{height:21px; background:url(../images/global/colorbox/borde_up.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(../images/global/colorbox/borde_down.png) 0 0 repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px; border-bottom:1px solid #CCC; margin-top:30px; margin:-4px 0 0 -17px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+		/*contoles de atras y adelante*/
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(../images/global/colorbox/prev_off.png) center center ; background-repeat:no-repeat !important; width:25px; height:25px;text-indent:-9999px;}
+        #cboxPrevious:hover{position:absolute; bottom:0; left:0; background:url(../images/global/colorbox/prev_on.png) center center  ; width:25px; height:25px;text-indent:-9999px; background-repeat:no-repeat;}
+		
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(../images/global/colorbox/next_off.png) center center  ;background-repeat:no-repeat; width:25px; height:25px; text-indent:-9999px; }
+        #cboxNext:hover{position:absolute; bottom:0; left:27px; background:url(../images/global/colorbox/next_on.png) center center  ;background-repeat:no-repeat; width:25px; height:25px; text-indent:-9999px; }
+		
+        #cboxLoadingOverlay{background:url(../images/global/loading_background.png) no-repeat center center!important ;}
+        #cboxLoadingGraphic{background:url(../images/global/loading.gif) no-repeat center center !important;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(../images/global/colorbox/btn-cerrar.gif) center center  ; width:75px; height:25px; top:-2px; text-indent:-9999px; background-repeat:no-repeat;border:none;}
+		#cboxClose:hover{background:url(../images/global/colorbox/btn-cerrar.gif) center center ;background-repeat:no-repeat;}
+
+        #close2{position:absolute; bottom:0px; right:0; background:url(../images/global/colorbox/close_off.png) center center  ; width:25px; height:25px; text-indent:-9999px; background-repeat:no-repeat; cursor:pointer;}
+        #close2:hover{background:url(../images/global/colorbox/close_on.png) center center ;background-repeat:no-repeat;}
+    
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft{background:url(../img/colorbox/corner_left-top.png);}
+.cboxIE6 #cboxTopCenter{background:url(../img/colorbox/borde_up.png);}
+.cboxIE6 #cboxTopRight{background:url(../img/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(../img/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(../img/colorbox/borde_up.png);}
+.cboxIE6 #cboxBottomRight{background:url(../img/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(../img/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(../img/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}

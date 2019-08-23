@@ -1,0 +1,33 @@
+/* Regulacion */
+.regulacionInfo .headerContent{
+	background: url(../images/bg-header.jpg) top center no-repeat;
+}
+.regulacionInfo .blockTop{
+	margin-bottom:65px;
+}
+.regulacionInfo .blockTop li img{
+	margin: 0 auto 25px;
+}
+.regulacionInfo .blockTop li p{
+	font-size: 15px;
+	padding:0;
+}
+.regulacionInfo  .text-content{
+	background:#fff;
+	margin-top:-35px;
+	padding: 40px 0 0;
+}
+.regulacionInfo .grayContent p{
+	padding: 40px 100px;
+}
+.regulacionInfo ol{
+	padding-bottom: 20px;
+}
+.regulacionInfo ol li{
+	text-align:center;
+	padding-bottom:60px;
+}
+.regulacionInfo ol li b{
+	 color: #00ace8;
+    font-family: "Open Sans";
+}

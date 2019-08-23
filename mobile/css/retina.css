@@ -1,0 +1,159 @@
+header .logo span,
+.bandera span {
+	background-image: url("../images/retina/global/sprite_global.png");
+	background-size: 146px 99px;
+}
+.logo span {
+	background-size: 376px 265px;
+}
+.principal .logo span{
+	background: url("../images/retina/global/sprite_global.png") -30px -60px no-repeat;
+	background-size: 376px 265px;
+}
+.sprite span{
+	background:url("../images/retina/global/sprite_global.png") no-repeat;
+	background-size: 376px 265px;
+}
+.title-with-logo span:first-child {
+	background: url("../images/retina/global/sprite_global.png") 0 -50px no-repeat;
+	background-size: 376px 265px;
+}
+
+.list.bullets li span:first-child {
+	background: url("../images/retina/global/sprite_global.png") 0 0 no-repeat;
+	background-size: 376px 265px;
+}
+.menu-toggle {
+	background: url('../images/retina/global/sprite_global.png') no-repeat -120px 0;
+	background-size: 376px 265px;
+}
+footer .redesDescarga li.redTransferF span{
+	background-size: 376px 265px;
+}
+footer .redesDescarga li.descargaApp span{
+	background-size: 376px 265px;
+}
+footer .menuInf .detalles .atencion span{
+	background-size: 376px 265px;
+}
+footer .menuInf .detalles .llama span{
+	background-size: 376px 265px;
+}
+footer .menuInf .detalles .marca span{
+	background-size: 376px 265px;
+}
+footer .menuInf .redes .fb span{
+	background-size: 376px 265px;
+}
+footer .menuInf .redes .tw span{
+	background-size: 376px 265px;
+}
+footer .menuInf .redes .yt span{
+	background-size: 376px 265px;
+}
+footer #footerBottom .logos li.banamex span{
+	background-size: 376px 265px;
+}
+footer #footerBottom .logos li.telcel span{
+	background-size: 376px 265px;
+}
+.btnFlecha span{
+	background-position: -210px -90px;
+	background-size: 376px 265px;
+}
+.internas #top h1 span{
+	background-position:0 -50px;
+	background-size: 376px 265px;
+}
+.accordion--title .ui-accordion-header-icon {
+	background: url("../images/retina/global/sprite_global.png") -28px -244px no-repeat;
+	background-size: 376px 265px;
+}
+.accordion--title:hover .ui-accordion-header-icon {
+	background-position: -28px -214px;
+	background-size: 376px 265px;
+}
+.accordion--title.ui-accordion-header-active .ui-accordion-header-icon {
+	background-position: -24px -193px;
+	background-size: 376px 265px;
+}
+#queEsTransfer .bullets li span{
+	background:url(../images/retina/queEsTransfer/bullet.png) no-repeat;
+}
+#queEsTransfer .bullets li.icon-ife span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-client span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-money span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-percentage span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-deposit span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-sms span{
+	background-size: 32px 336px;
+}
+#queEsTransfer .bullets li.icon-card span{
+	background-size: 32px 336px;
+}
+#videos .video-overlay {
+	background: url("../images/retina/queEsTransfer/video-overlay.png") no-repeat;
+	background-size: 320px 183px;
+}
+#videos .arrows .jcarousel-prev,
+#videos .arrows .jcarousel-next {
+	background: url("../images/retina/global/sprite_global.png") no-repeat;
+	background-size: 376px 265px;
+}
+#videos .arrows .jcarousel-prev {
+	background-position: -23px -170px;
+	background-size: 376px 265px;
+}
+#videos .arrows .jcarousel-next {
+	background-position: -36px -170px;
+	background-size: 376px 265px;
+}
+.activarNIP .steps-slider--control {
+	background: url("../images/retina/global/sprite_global.png") no-repeat;
+	background-size: 376px 265px;
+}
+.activarNIP .jcarousel-prev {
+	background-position: -23px -170px;
+	background-size: 376px 265px;
+}
+.activarNIP .jcarousel-next {
+	background-position: -36px -170px;
+	background-size: 376px 265px;
+}
+.activation--screen {
+	background: url("../images/retina/comoFunciona/cambiar.png") no-repeat;
+	background-size: 180px 237px;
+}
+.activation--step {
+	background: url("../images/retina/global/sprite_global.png") no-repeat;
+	background-size: 376px 265px;
+}
+#home #pastillas ul li a span{
+	background: url("../images/retina/global/sprite_global.png") no-repeat;
+	background-size: 376px 265px;
+}
+#home #pastillas ul li a.box3 span{background-size: 376px 265px;}
+#home #pastillas ul li a.box2 span{background-size: 376px 265px;}
+#home #pastillas ul li a.box1 span{background-size: 376px 265px;}
+
+#home #pastillas ul li a.box3.activo span{background-size: 376px 265px;}
+#home #pastillas ul li a.box2.activo span{background-size: 376px 265px;}
+#home #pastillas ul li a.box1.activo span{background-size: 376px 265px;}
+
+#home .destacado > div > div{
+	position: absolute;
+	bottom: 25px;
+	width:100%;
+	left:0;
+	padding:8px 25px 0;
+}

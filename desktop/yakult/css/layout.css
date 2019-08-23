@@ -1,0 +1,138 @@
+/* Regulacion */
+.yakult .headerContent{
+	background: url(../images/bg-header.jpg) top center no-repeat;
+	height:515px !important;
+}
+.yakult .textContent{
+	margin-top: -40px;
+}
+.headerContent .titulos h1{
+	font-weight:normal;
+	line-height:50px;
+}
+.titulos h1 span{
+	top:3px;
+}
+
+.yakult .article .content .text-content{
+	padding:0 40px;
+}
+.yakult-mecanica.internas ul.bullet{
+	padding-bottom:120px;
+}
+.a1024 .yakult-mecanica.internas ul.bullet{
+	padding-bottom: 60px;
+}
+.ie678 .internas.yakult-mecanica ul.bullet li,
+.internas.yakult-mecanica ul.bullet li{
+	text-align:center;
+}
+.ie678 .internas.yakult-mecanica ul.bullet li span,
+.internas.yakult-mecanica ul.bullet li span{
+	position: relative;
+	top:-5px;
+	left:-8px;
+}
+.ie7 .internas.yakult-mecanica ul.bullet li {
+	width:420px;
+}
+.ie7 .internas.yakult-mecanica ul.bullet li:first-child {
+	width:310px;
+}
+
+.ie7 .internas.yakult-mecanica ul.bullet li span{
+	position: absolute;
+	top:10px;
+	left:0px;
+}
+.yakult small{
+	font: 14px 'pt_sansregular';
+	color:#34465c;
+	padding:0 60px 35px;
+	display:block;
+}
+.yakult small a{
+	color: #00ace8;
+}
+.yakult small a:hover{
+	color:#ff9800;
+}
+.yakult.internas  ol.numeros li{
+	text-align:center;
+}
+.a1024 .yakult.internas  ol.numeros li{
+	font-size:16px;
+}
+.yakult ol.numeros{
+	padding: 0 0 20px;
+	width:100%;
+}
+.yakult ol.numeros span{
+	font-weight: bold;
+	position:relative;
+	left:0;
+}
+.yakult-byc h3{
+	font-size:34px;
+	font-weight:bold;
+	padding-bottom:60px;
+}
+.a1024 .yakult-byc h3{
+	font-size: 28px;
+	padding-bottom: 40px;
+}
+.yakult-byc .letras{
+	padding:0;
+	margin:0;
+}
+.yakult-byc .letras li{
+	padding:20px 0 0;
+	font-size: 21px;
+}
+.a1024 .yakult-byc .letras li{
+	font-size: 16px;
+}
+.a1024 ol li span, 
+.a1024 ol li a{
+	font-size:16px;
+}
+.yakult-byc .letras li:first-child{
+	padding: 0;
+}
+
+.yakult-byc .letras li span{
+	font-size:21px;
+}
+.a1024 .yakult-byc .letras li span{
+	font-size:16px;
+}
+.yakult-byc.internas ul.bullet.sprite li{
+	font:26px 'Open Sans Light';
+	padding:0 0 0 18px;
+}
+.a1024 .yakult-byc.internas ul.bullet.sprite li{
+	font-size: 16px;
+}
+.yakult-byc.internas ul.bullet.sprite li span{
+	top:16px;
+}
+.yakult-byc.internas ul.bullet.sprite.especial{
+	padding-bottom: 60px;
+}
+.yakult-byc.internas ul.bullet.sprite.especial li{
+	font-size:18px;
+	padding:0 0 0 18px;
+}
+.a1024 .yakult-byc.internas ul.bullet.sprite.especial li{
+	font-size: 16px;
+}
+.yakult-byc.internas ul.bullet.sprite.especial li span{
+	top:8px;
+}
+.yakult-byc.internas ul.bullet.sprite.especial li a{
+	font-size:18px;
+	display:inline-block;
+}
+.a1024 .yakult-byc.internas ul.bullet.sprite.especial li a{
+	font-size:16px;
+}

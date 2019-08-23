@@ -1,0 +1,106 @@
+.toks .headerContent{
+	background: url(../images/header.jpg) center 0 no-repeat;
+   height: 415px;
+}
+
+.toks .headerContent h1 {
+ color: #ffffff;
+  font-size: 40px;
+  line-height: 61px;
+  width: 670px;
+}
+
+.toks .headerContent h1 strong{
+	visibility: hidden;
+}
+
+.toks .headerContent .titulos {
+     padding: 105px 0 0 80px;
+}
+
+.toks .headerContent .titulos h1 span {
+	  top: 10px;
+}
+
+.toks ol {
+	  margin-top: 50px;
+}
+
+.toks ol li {
+	text-align:center;
+}
+
+.toks ol li a {
+	text-decoration:underline;
+}
+
+.toks.internas .grayContent h2.light {
+	   line-height: 50px;
+	  margin-top: 70px;
+	  display: inline-block;
+}
+
+.toks .jcarousel {
+   width: 702px;
+  height: 445px;
+  padding: 40px 0 0;
+  
+}
+
+
+.toks .jcarousel ul li .telefono {
+	  background: url(../../images/comoFunciona/cambiar.png) no-repeat;
+	  width: 215px;
+	  height: 389px;
+	  margin: 0 30px 0 0;
+	  float: left;
+	  padding: 130px 40px;
+}
+
+.toks .jcarousel ul li p {
+	width: 340px;
+	float: right;
+	font: 19px 'Open Sans Light';
+	font-weight: 300;
+	text-align: left;
+	line-height: normal;
+	float: right;		
+}
+
+
+
+.toks .jcarousel ul li .telefono span {
+	padding: 100px 0px 0;
+	width: 233px;
+	font-size: 21px;
+}
+
+.toks .jcarousel .cant {
+  position: absolute;
+  bottom: 0px;
+  right: 92px;
+  text-align: center;
+  background: #d1d1d1;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.toks .jcarousel .cant p {
+  color: #34465c;
+  font: 20px 'Open Sans';
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 15px;
+} 
+
+.toks .legales {
+	text-align:left;
+	padding: 0 30px;
+}
+
+.toks .legales p {
+	font-size:16px;
+	color:#394a59;
+}
+
+

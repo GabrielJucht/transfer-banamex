@@ -1,0 +1,23 @@
+/* Regulacion */
+.a1024 .regulacion .title{
+	padding: 160px 0 0 30px;
+}
+.a1024 .internas .grayContent img{
+	width: auto;
+}
+.a1024 .regulacion .fone{
+	width: 475px;
+	padding-right:25px;
+}
+.a1024 .regulacion .fone2 p{
+	width:490px;
+}
+.a1024 .regulacion ol li{
+	padding-left: 0;
+}
+.a1024 .regulacion .title3{
+	padding-top:0;
+}
+.a1024 .regulacion ol li ul li{
+	padding: 0 0 10px 15px;
+}

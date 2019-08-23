@@ -1,0 +1,48 @@
+				<div class="jcarousel" id="box4">
+					<ul>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS al 4040</strong><br>Desbloqueo</span>
+							</div>
+							<div class="textos">
+								<p>Desbloquea desde tu celular siempre y cuando hayas bloqueado temporalmente el servicio.</p>
+								<p><span>1.</span> Redacta un mensaje de texto desde tu celular con la palabra DESBLOQUEO y envíalo al 4040.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Para desbloquear tu servicio Transfer ingresa tu NIP </span>
+							</div>
+							<div class="textos">
+								<p><span>2.</span> Recibirás un mensaje para que confirmes la operación ingresando tu NIP.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Tu servicio ha sido desbloqueado </span>
+							</div>
+							<div class="textos">
+								<p><span>3.</span> Recibirás un mensaje de texto con el estatus de tu operación.</p>
+							</div>
+						</li>
+					</ul>
+					<div class="cant" id="cant">
+						<p>paso <span class="act">1</span> de <span class="tot"></span></p>
+					</div>
+				</div><!-- Box4 -->
+<script>
+$(function(){
+	var slider = $('.jcarousel ul').bxSlider({
+		pager: false,
+		controls: true,
+		infiniteLoop:false,
+		hideControlOnEnd: true,
+		onSlideAfter: function(currentIndex){
+			current = slider.getCurrentSlide()+1;
+			$(".jcarousel #cant .act").text(current);
+		}
+	});
+	var slideQty = slider.getSlideCount();
+	$(".jcarousel #cant .tot").text(slideQty);
+});
+</script>

@@ -1,0 +1,52 @@
+				<div class="jcarousel" id="box4">
+					<ul>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS al 4040</strong><br>Ayuda</span>
+							</div>
+							<div class="textos">
+								<p><span>1.</span> Redacta un mensaje de texto desde tu celular con la palabra AYUDA y envíalo al 4040.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>Ingresa el número de la transacción que deseas consultar:<br>
+1. Fondeo<br>
+2. Transfer a celular<br>
+3. Transfer a cuenta Banamex<br>
+4. Transfer a Tarjeta </span>
+							</div>
+							<div class="textos">
+							<p><span>2.</span> Recibirás un mensaje con un menú de todas las operaciones que puedes realizar con Transfer.</p>
+							<p>Ingresa la opción de la operación que quieres.</p>
+							</div>
+						</li>
+						<li>
+							<div class="telefono">
+								<span><strong>SMS del 4040</strong><br>EJEMPLO: 1. Redacta un mensaje de texto que incluya los 11 dígitos del número de la cuenta Banamex o los 16 dígitos de la tarjeta más un espacio y la cantidad a enviar sin signo de pesos. </span>
+							</div>
+							<div class="textos">
+							<p><span>3.</span> Recibirás un mensaje con la explicación y un ejemplo de cómo realizar la operación.</p>
+							</div>
+						</li>
+					</ul>
+					<div class="cant" id="cant">
+						<p>paso <span class="act">1</span> de <span class="tot"></span></p>
+					</div>
+				</div><!-- Box4 -->
+<script>
+$(function(){
+	var slider = $('.jcarousel ul').bxSlider({
+		pager: false,
+		controls: true,
+		infiniteLoop:false,
+		hideControlOnEnd: true,
+		onSlideAfter: function(currentIndex){
+			current = slider.getCurrentSlide()+1;
+			$(".jcarousel #cant .act").text(current);
+		}
+	});
+	var slideQty = slider.getSlideCount();
+	$(".jcarousel #cant .tot").text(slideQty);
+});
+</script>
